@@ -1,0 +1,124 @@
+/* Estilo global para el cuerpo y encabezado */
+body {
+    background-color: #f0f0f0;
+    margin: 0, auto, ;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('./images/fondo.jpeg');
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed; 
+}
+    
+
+header {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    border-bottom: 5px solid #3277a5;
+    height: auto;
+    color: white;
+    font-size: 30px;
+    padding: 20px 0;
+    text-align: center;
+}
+ /* Alinea los elementos verticalmente */
+ main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: auto;
+    padding: 20px;
+}
+/* Le aplico un poco de arte al texto principal*/
+.tituloCentrado {
+    margin: 0;
+    font-size: 50px; 
+    background: radial-gradient(circle, white, rgb(113, 100, 215)); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+img{
+    width: 800px;
+    height: 760px;
+    margin: auto;
+}
+p,ul{
+    font-size: 25px;
+}
+a {
+    font-size: 30px;
+    color: rgb(100, 142, 215);
+    text-decoration: none; /* Elimina el subrayado */
+}
+ a:hover {
+    color:#4f3ce0;
+    font-size: 32px;
+    text-decoration: dashed;
+}
+
+/* Estilo para cada obra de arte */
+.cuadro {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    border: 5px solid #666;
+    border-radius: 15px;
+    display: inline-block;
+    width: auto;
+    position: relative; 
+    background-color:#f0f0f0;
+}
+
+.cuadro-con-float-y-position {
+    border-top: transparent;
+    border-bottom: transparent;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    border: 5px solid #666;
+    border-radius: 15px;
+    float: left; 
+    width: auto;
+    position: relative; 
+    background-color:#f0f0f0;
+}
+/* Estilo para cada obra de arte */
+.cuadro-principal {
+    background-color:#f0f0f0;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    border: 5px solid #1c1b1b;
+    border-radius: 25px;
+    display: inline-block;
+    width: auto;
+    box-sizing: border-box;
+    position: relative; 
+}
+
+/* Estilo para las imágenes le doy predominio al ancho el alto se adapta al ancho */
+.arte-imagen {
+    width: 100%;
+    height: auto;
+}
+/* Estilos para el pie de página y el logotipo de derechos de autor */
+footer {
+    background-color: #333; /* Cambia el fondo a negro */
+    color: white;
+    padding: 5px;
+    border-top: 5px solid #3277a5;
+    text-align: center;
+}
+
+footer a {
+    color: rgb(100, 142, 215);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: dashed;
+    color: white;
+}
+
